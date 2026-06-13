@@ -1,0 +1,96 @@
+# ==========================================
+# Java / Maven / Spring Boot
+# ==========================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.log
+logs/
+.kotlin
+
+# ==========================================
+# Frontend: Vue 3 / Node.js
+# ==========================================
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+.nuxt/
+.output/
+
+# Environment files
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches
+.eslintcache
+.stylelintcache
+.vite/
+
+# ==========================================
+# WeChat Mini Program (微信小程序)
+# ==========================================
+# Local config (contains personal appid and paths)
+project.private.config.json
+# If using Uni-app
+unpackage/
+# Local logs
+miniprogram_npm/
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+# ==========================================
+# OS / System Files
+# ==========================================
+### Mac OS ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
